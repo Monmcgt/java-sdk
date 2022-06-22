@@ -1,5 +1,4 @@
 group 'org.discordbots'
-version '2.1.3'
 
 apply plugin: 'java'
 apply plugin: 'maven-publish'
