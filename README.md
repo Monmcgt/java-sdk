@@ -67,7 +67,7 @@ api.getVotingMultiplier().whenComplete((multiplier, e) -> {
 
 ## Download
 
-[![Release](https://jitpack.io/v/DiscordBotList/DBL-Java-Library.svg)](https://jitpack.io/#DiscordBotList/DBL-Java-Library)
+[![Release](https://jitpack.io/v/DiscordBotList/DBL-Java-Library.svg)](https://jitpack.io/#Monmcgt/java-sdk)
 
 Replace `VERSION` with the latest version or commit hash. The latest version can be found under releases.
 
@@ -84,9 +84,9 @@ Replace `VERSION` with the latest version or commit hash. The latest version can
 ```xml
 <dependencies>
     <dependency>
-        <groupId>org.discordbots</groupId>
-        <artifactId>DBL-Java-Library</artifactId>
-        <version>VERSION</version>
+        <groupId>com.github.Monmcgt</groupId>
+	<artifactId>java-sdk</artifactId>
+        <version>master-SNAPSHOT</version>
     </dependency>
 </dependencies>
 ```
@@ -99,7 +99,7 @@ repositories {
 ```
 ```gradle
 dependencies {
-    compile 'org.discordbots:DBL-Java-Library:VERSION'
+    compile 'com.github.Monmcgt:java-sdk:master-SNAPSHOT'
 }
 ```
 
